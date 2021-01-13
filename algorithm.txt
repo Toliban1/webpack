@@ -1,0 +1,7 @@
+node v10.0.0 уже стоял
+npm 5.6.0 уже стоял
+
+npm init - инициализация
+npm install -D webpack
+npm install -D webpack-cli - cli для управления webpack'ом через консоль
+
