@@ -1,7 +1,22 @@
 node v10.0.0 уже стоял
+При надобности обновить node установить менеджер версий NodeJS: n:
+npm install -g n
+n stable
+sudo n stable
+
+
 npm 5.6.0 уже стоял
 
+
 npm init - инициализация
+или npm install для установки пакетов если package.json уже существует
+
 npm install -D webpack
 npm install -D webpack-cli - cli для управления webpack'ом через консоль
+
+консольный запуск webpack:
+./node_modules/.bin/webpack
+
+
+
 
