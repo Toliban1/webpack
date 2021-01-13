@@ -1,7 +1,6 @@
 node v10.0.0 уже стоял
 При надобности обновить node установить менеджер версий NodeJS: n:
 npm install -g n
-n stable
 sudo n stable
 
 
