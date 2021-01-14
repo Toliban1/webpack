@@ -17,5 +17,17 @@ npm install -D webpack-cli - cli для управления webpack'ом чер
 ./node_modules/.bin/webpack
 
 
+sh deploy_env.sh && sh deploy_dev.sh
+
+
+в package.json строка  "main": "src/index.js" если это можно публиковать как npm пакет, иначе "private": true
+в webpack.config.js  resolve => extensions - список расширений файлов необязательных для упоминания при импорте. по умолчанию [ '.js', '.json', ]
+в webpack.config.js  resolve => alias - сокращение написания путей до папок через шифры
+в webpack.config.js  optimization => splitChunks  chunks: "all" - избавление от многократного импорта одной и той же либы увеличением числа bundle'ов
+
+
+sudo npm i -D webpack-dev-server вырезано, т.к. нерешённая ошибка. Вместо webpack-dev-server используется webpack serve
+хотя далее по тексту пишу webpack-dev-server
+webpack-dev-server bundle'ы хранит в оперативе, в папку dist не кладёт
 
 
