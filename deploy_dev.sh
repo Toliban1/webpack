@@ -8,6 +8,7 @@ sudo npm i -D webpack-cli
 sudo npm i -D html-webpack-plugin
 sudo npm i -D clean-webpack-plugin
 sudo npm i -D copy-webpack-plugin
+sudo npm i -D mini-css-extract-plugin
 
 sudo npm i -D style-loader
 sudo npm i -D css-loader
